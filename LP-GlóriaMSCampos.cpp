@@ -41,7 +41,7 @@ int main() {
 		//Condicional para executar a escolha do usuário
 		if(escolha == 1){
 			//Contador para receber os números escolhidos pelo usuário
-			for(int i = 0; i < 2; i++){
+			for(int i = 0; i < N; i++){
 				cout <<"Digite um número inteiro: ";
 				cin >>numero[i];
 				conta = conta + numero[i];
