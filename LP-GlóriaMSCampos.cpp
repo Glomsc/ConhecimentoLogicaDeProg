@@ -48,7 +48,7 @@ int main() {
 			}
 			//Exibindo a conta
 			cout << "\n"<<numero[0]<<" + "<<numero[1]<<" = " << conta << "\n";
-		
+			conta = 0;
 		}else if(escolha == 2){
 			//Contador para recolher os números escolhidos pelo usuário
 			for(int i = 0; i < 3; i++){
@@ -58,6 +58,7 @@ int main() {
 			}
 			//Exibindo a conta
 			cout << "\n"<<numero[0]<<" + "<<numero[1]<<" + "<< numero[2]<<" = " << conta << "\n";
+			conta = 0;
 		}
 	}
 	fim();
