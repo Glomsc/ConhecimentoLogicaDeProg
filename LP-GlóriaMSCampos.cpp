@@ -29,7 +29,6 @@ void fim(){
 }
 
 int main() {
-
 	inicio();
 	boasvindas(nome);
 	//Loop com a intenção de continuar repetindo o programa até o usuário escolher sair
